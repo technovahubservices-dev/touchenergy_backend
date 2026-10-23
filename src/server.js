@@ -30,6 +30,8 @@ app.use(
   cors({
     origin: [
       clientUrl,
+      "https://touchenergy.in",
+      "https://www.touchenergy.in",
       "http://localhost:5173",
       "http://localhost:4173",
     ].filter(Boolean),
